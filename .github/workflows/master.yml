@@ -29,7 +29,6 @@ jobs:
 
       - name: Install npm dependencies and build
         run: |
-          npm config set registry http://mirrors.cloud.tencent.com/npm/
           npm i
           npm run build
 
