@@ -54,7 +54,6 @@ export const getSiteData = async (apikey, days, cache, status) => {
 
     // 准备请求数据的参数
     const postdata = {
-      api_key: apikey,
       format: "json",
       logs: 1,
       log_types: "1-2",
